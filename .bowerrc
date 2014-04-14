@@ -1,0 +1,5 @@
+{
+    "color": true,
+    "cwd": "./config/bower",
+    "directory": "../../vendor"
+}

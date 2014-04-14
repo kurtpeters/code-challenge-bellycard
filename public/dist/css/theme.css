@@ -1,0 +1,144 @@
+body {
+  font-family: "Open Sans", Verdana, Helvetica, sans-serif;
+  background-color: #333333;
+}
+#header {
+  background: #33a9e0;
+  position: relative;
+  transition: background-color 0.32s;
+}
+.modalized #header {
+  background-color: transparent;
+}
+.primary-logo {
+  float: left;
+  margin: 24px 0;
+}
+.primary-logo a {
+  background: url(/images/logo.svg) 50% 50% no-repeat;
+  background-size: contain;
+  color: transparent;
+  display: block;
+  height: 48px;
+  width: 144px;
+}
+#main {
+  position: relative;
+}
+.main-content {
+  padding: 30px 0;
+}
+.section {
+  background-color: #f2f2f2;
+  background-image: url(/images/fuzz-0f0ded0cac030b52bd775e597483321e.png);
+  border-bottom: 1px solid #e1e1e1;
+  padding: 45px 0 50px;
+}
+.section.white {
+  background: #f9f9f9;
+}
+.section h3 {
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 55px;
+  padding-bottom: 24px;
+  position: relative;
+}
+.section h3:after {
+  background: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  content: "";
+  height: 4px;
+  left: 50%;
+  margin-left: -100px;
+  position: absolute;
+  width: 200px;
+}
+.alert {
+  margin: 0;
+  border-radius: 0;
+}
+.jumbotron {
+  padding: 0 20px;
+  margin: 0;
+}
+.jumbotron .btn {
+  margin: 20px 0 0;
+}
+.footer-content {
+  padding: 20px 0;
+}
+.modalized .social a {
+  color: transparent;
+}
+.social {
+  font-size: 30px;
+  margin: 30px 0;
+  padding: 0;
+}
+.social li {
+  display: inline;
+  margin-left: 30px;
+}
+.social li:first-child {
+  margin-left: 0;
+}
+.social a {
+  color: #ffffff;
+  transition: color 0.32s;
+}
+.social a:hover {
+  color: #33a9e0;
+  text-decoration: none;
+}
+.btn-belly {
+  background-color: #e93801;
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 0.2s linear;
+}
+.btn-belly:active,
+.btn-belly:focus,
+.btn-belly:hover {
+  background-color: #f74912;
+  color: #ffffff;
+  transition: all 0.32s linear;
+}
+.prompt {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+  border-bottom-color: #ccc;
+  box-shadow: inset 0 -3px 0px #dddddd, 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.question {
+  color: #555;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+}
+.question strong {
+  color: #444;
+}
+.answer {
+  margin-right: 10px;
+}
+.leaderboard-list {
+  padding: 0;
+}
+.leaderboard-list li {
+  color: #ffffff;
+  background: #92CAE4;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.leaderboard-list li.active {
+  background: #33aae1;
+}
+.leaderboard-list .badge {
+  color: #444;
+  background: #ffffff;
+  font-weight: bold;
+}

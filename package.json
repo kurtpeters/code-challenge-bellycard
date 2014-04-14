@@ -1,0 +1,30 @@
+{
+  "name": "bellycard",
+  "version": "0.0.1",
+  "author": "Kurt Peters",
+  "description": "bellycard.com coding challenge",
+  "subdomain": "kurtpeters-bellycard",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "contributors": [
+    {
+      "name": "Kurt Peters",
+      "email": "uiuxwarrior@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "backbone": "*",
+    "express": "~3.0.0",
+    "express-less": "*",
+    "jade": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "bower": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

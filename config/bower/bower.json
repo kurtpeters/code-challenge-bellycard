@@ -1,0 +1,15 @@
+{
+  "name": "belly",
+  "version": "0.0.1",
+  "dependencies": {
+    "backbone": "*",
+    "bootstrap": "~3.x",
+    "fontawesome": "*",
+    "handlebars": "~2.x",
+    "jasmine": "~2.x",
+    "jquery": "~1.x",
+    "modernizr": "~2.6.2",
+    "requirejs": "*",
+    "underscore": "*"
+  }
+}

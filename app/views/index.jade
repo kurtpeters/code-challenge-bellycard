@@ -1,0 +1,40 @@
+doctype html
+
+html
+
+    head
+        title Belly Coding Challenge
+
+        link(href='images/favicon.ico' rel='shortcut icon')
+
+        link(href='vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet', type='text/css')
+        link(href='vendor/fontawesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+        link(href='dist/css/theme.css', rel='stylesheet', type='text/css')
+        link(href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Open+Sans:400italic,400,300,600,600italic" rel="stylesheet")
+
+        script(src="vendor/modernizr/modernizr.js" type='text/javascript')
+        script(src="/socket.io/socket.io.js", type='text/javascript')
+        script(src="vendor/jquery/dist/jquery.min.js" type="text/javascript")
+        script(src="vendor/underscore/underscore.js" type='text/javascript')
+        script(src="vendor/backbone/backbone.js" type='text/javascript')
+        script(src="vendor/bootstrap/dist/js/bootstrap.min.js" type='text/javascript')
+        script(src="vendor/requirejs/require.js" data-main="js/main.js" type='text/javascript')
+
+    body
+        
+        header#header
+            .container
+                .primary-logo
+                    a(href='https://tech.bellycard.com/join/#javascript-math-game', target='_blank') Belly Coding Challenge
+        
+        main#main
+        
+        footer#footer
+            .container
+                ul.social
+                    li
+                        a(href='https://github.com/kurtpeters/code-challenge-bellycard', target='_blank').fa.fa-github
+                    li
+                        a(href='https://www.linkedin.com/in/kupeters', target='_blank').fa.fa-linkedin
+                    li
+                        a(href='https://twitter.com/uiuxwarrior', target='_blank').fa.fa-twitter
