@@ -13,6 +13,7 @@
         'views/modal', 'views/prompt', 'views/leaderboard', 'views/messenger',
         'helpers/sockets',
     ], function(User, Modal, Prompt, Leaderboard, Messenger, Sockets) {
+        'use strict';
         /**
          * @class ApplicationView
          * @desc Initialization of product

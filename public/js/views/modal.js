@@ -1,6 +1,7 @@
 define([
     'templates/modal'
 ], function(template) {
+    'use strict';
     /**
      * @class ModalView
      * @desc View for sign-on modal

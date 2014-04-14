@@ -1,4 +1,5 @@
 define([], function() {
+    'use strict';
     var socketIo = io.connect(),    
     /**
      * @class Sockets

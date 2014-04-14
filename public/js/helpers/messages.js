@@ -7,6 +7,7 @@ define([
     'templates/messenger/thunderdome',
     'templates/messenger/wrongAnswer'
 ], function(congrats, gameover, goodbye, missed, newChallenger, thunderdome, wrongAnswer) {
+    'use strict';
     /**
      * @namespace templates
      * @desc messenger alerts template queue

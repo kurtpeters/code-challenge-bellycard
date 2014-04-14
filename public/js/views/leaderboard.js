@@ -1,6 +1,7 @@
 define([
     'templates/leaderboard'
 ], function(template) {
+    'use strict';
     /**
      * @class LeaderboardView
      * @desc View for individual user object

@@ -1,6 +1,7 @@
 define([
     'helpers/messages'
 ], function(messages) {
+    'use strict';
     /**
      * @class MessengerView
      * @desc View for bootstrap alerts

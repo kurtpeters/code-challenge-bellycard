@@ -2,6 +2,7 @@ define([
     'templates/prompt',
     'templates/winner'
 ], function(promptTemplate, winnerTemplate) {
+    'use strict';
     /**
      * @class PromptView
      * @desc View for user prompt
