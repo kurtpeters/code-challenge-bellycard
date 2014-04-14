@@ -22,9 +22,6 @@ app.configure(function() {
 app.get('/', function(req, res) {
     res.render('index');
 });
-app.get('/spec', function(req, res) {
-    res.render('spec');
-});
 /**
  * Server
  * @desc application port
