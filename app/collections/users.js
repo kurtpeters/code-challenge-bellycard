@@ -1,6 +1,6 @@
 /**
  * @class UsersCollection
- * @desc Colleciton of users
+ * @desc Collection of users
  * @returns {Object} Backbone.Collection
  */
 module.exports = require('backbone').Collection.extend({
