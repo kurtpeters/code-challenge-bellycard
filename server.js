@@ -26,7 +26,7 @@ app.get('/', function(req, res) {
  * Server
  * @desc application port
  */
-var server = app.listen(1337, function() {
+var server = app.listen(process.env.PORT || 1337, function() {
     require('./app/main')(server);
     console.log('Listening on port %d', server.address().port);
 });
